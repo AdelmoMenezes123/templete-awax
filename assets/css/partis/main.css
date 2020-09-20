@@ -43,18 +43,6 @@
     margin-top: 15px;
 }
 
-.banner a {
-    display: block;
-    background-color: #b28756;
-    color: #fff;
-    font-weight: 600;
-    font-size: 12px;
-    text-decoration: none;
-    padding: 10px 30px;
-    margin-top: 30px;
-    border-radius: 20px;
-}
-
 .banner .slide-pointers {
     width: 100vw;
     height: 20px;
@@ -74,6 +62,75 @@
     cursor: pointer;
 }
 
-.banner .pointer .active {
+.banner .pointer.active {
     background-color: #b28756
+}
+
+.default {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.default .section-title,
+.default .section-desc {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.default .section-title {
+    font-size: 20px;
+}
+
+.default .section-desc {
+    font-size: 12px;
+    color: #555;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.default .section-body {
+    margin: auto;
+    max-width: 1140px;
+}
+
+.default.light {
+    background-color: #F7F7F7;
+}
+
+.default.light .section-title,
+.default.light .section-body {
+    color: #000;
+}
+
+.default.dark {
+    background-color: #000;
+}
+
+.default.dark .section-title,
+.default.dark .section-body {
+    color: #FFF;
+}
+
+.section-aboutus {
+    display: flex;
+}
+
+.section-aboutus p {
+    font-size: 14px;
+    line-height: 23;
+}
+
+.section-aboutus--left {
+    flex: 1;
+}
+
+.section-aboutus--right {
+    width: 500px;
+    text-align: center;
+}
+
+.section-aboutus--right img {
+    width: 480px;
+    box-shadow: 0px 5px 10px #333;
 }
